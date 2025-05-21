@@ -8,12 +8,18 @@
 		{{ .Content }}
 
 		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
+		{{ range .Params.contact_entries }}
+			<div>
+				<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
+				{{ if in (lower .heading) "email" }}
+					<p><a href="mailto:{{ .text }}">{{ .text }}</a></p>
+				{{ else if in (lower .heading) "phone" }}
+					<p><a href="tel:{{ .text }}">{{ .text }}</a></p>
+				{{ else }}
 					<p>{{ .text }}</p>
-				</div>
-			{{ end }}
+				{{ end }}
+			</div>
+		{{ end }}
 		</div>
 
 		{{ partial "contact-form" . }}
