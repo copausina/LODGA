@@ -5,8 +5,11 @@ subtitle: LODGA's mission is to promote, protect, foster, and advance
 image: img/oystersonboat.png
 blurb:
   heading: Who we are
-  text: >-2
-     Louisiana Oyster Dealers & Growers Association (LODGA) is a non-profit association established in 1952 to represent the interests of Louisiana’s oyster industry.
+  text: >-
+    Louisiana Oyster Dealers & Growers Association (LODGA) is a non-profit
+    association established in 1952 to represent the interests of Louisiana’s
+    oyster industry.
+
 
     Through the years, we’ve helped ensure the stability of this prolific fishery by supporting research and development projects that enhance oyster growth and production, as well as environmental conservation efforts that protect their habitat. We advocate for policies and regulations that support the industry's growth and success.
 intro:
