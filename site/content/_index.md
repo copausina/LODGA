@@ -2,7 +2,7 @@
 title: "Our Mission:"
 subtitle: LODGA's mission is to promote, protect, foster, and advance
   Louisiana's oyster industry
-image: img/oystersonboat.png
+image: img/black-bay-sept-9-2009.jpg
 blurb:
   heading: Who we are
   text: >-
