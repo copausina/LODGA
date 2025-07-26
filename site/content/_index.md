@@ -22,7 +22,6 @@ intro:
 
 
     In 2005, we established the Louisiana Oyster Community Relief Fund Inc. to support industry-related matters. The fund fosters and protects the oyster industry by working to ensure the industry’s interests are protected.
-products: []
 values:
   heading: Our values
   text: Coffee is an amazing part of human culture but it has a dark side too –
